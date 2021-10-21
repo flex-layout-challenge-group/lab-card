@@ -10,6 +10,13 @@ html {
     background-color: #e9eff4;
 }
 
+header {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
 li {
     list-style-type: none;
     
@@ -28,22 +35,23 @@ h3 {
 article, footer {
     padding: 1rem;
 }
- 
+
 .container {
+    display: flex;
+
+    flex-direction: row;
+}
+ 
+.card {
     
     margin: 2rem;
     border-radius: 3%;
     background-color: white;
+    box-shadow: 14px 14px 21px 5px rgba(0,0,0,0.30);
 
     width: 45%;
 }
 
-header {
-    display: flex;
-
-    align-items: center;
-    justify-content: center;
-}
 .house-photo {
 
     border-top-left-radius: 3%;
